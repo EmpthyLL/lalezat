@@ -169,13 +169,13 @@ body{
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
 }
 .gallery .menu-cards .menu{
-    width: 20rem;
     border: 1px solid var(--medium);
     padding: 1rem 1rem;
     padding-top: 2rem;
     text-align: center;
     color: black;
     font-size: 1.4rem;
+    margin: 0 1rem;
     margin-bottom: 2rem;
 }
 .menu ion-icon{
