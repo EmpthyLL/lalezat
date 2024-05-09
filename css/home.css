@@ -190,7 +190,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
     mask-image: linear-gradient(to left,rgba(0,0,0,1) 84%,rgba(0,0,0,0));
 }
 .hero .media ion-icon{
