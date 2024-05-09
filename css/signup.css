@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Kaushan;
+    src: url('../font/kaushanscript-regular-webfont.woff2') format('woff2'),
+        url('../font/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alura';
+    src: url('../font/allura-regular-webfont.woff2') format('woff2'),
+         url('../font/allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url('../font/dancingscript-regular-webfont.woff2') format('woff2'),
+         url('../font/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --light: #DEF5E5;
+    --medium: #BCEAD5;
+    --dark: #9ED5C5;
+    --darker: #8EC3B0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container .img{
+    width: 50%;
+    background-image: url(../img/Bg/Bg\ 3.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    mask-image: linear-gradient(to right,rgba(0,0,0,1) 84%,rgba(0,0,0,0));
+}
+.container .img .logo{
+    font-family: Alura;
+    font-size: 4.5rem;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.788);
+}
+.container .img .logo span{
+    color: var(--medium);
+}
+.container .img div{
+    position: absolute;
+    width: 100%;
+}
+.container .signin{
+    width: 50%;
+    padding: 4rem 5rem;
+    color: black;
+    text-align: center;
+}
+.container .signin h1{
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 5px gray;
+}
+.container .signin p{
+    font-size: 1.3rem;
+    color: gainsboro;
+    text-shadow: 1px 1px 5px rgb(238, 238, 238);
+}
+.container .signin .icon a{
+    padding: 2px;
+    font-size: 1.7rem;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border: 1px solid lightgray;
+    margin: 3rem 1rem;
+    border-radius: 20%;
+    color: black;
+}
+.container .signin .icon a:hover{
+    background-color: rgb(237, 237, 237);
+}
+.container .signin input:nth-child((even)){
+    display: block;
+}
+.container .signin input{
+    margin: auto;
+    padding: 0 2rem;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    height: 4.5rem;
+    margin-top: 2rem;
+    background-color: rgb(244, 244, 244);
+    border-radius: 1rem;
+}
+.lupa .isi{
+    margin-top: -1rem;
+    width: 90%;
+    margin: auto;
+}
+.container .signin .lupa div{
+    position: relative;
+}
+.container .signin .lupa input{
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    position: relative;
+}
+.container .signin .lupa label{
+    font-size: 1.1rem;
+    color: grey;
+    display: inline-block;
+    position: relative;
+    bottom: 0.2rem;
+}
+.container .signin .lupa a{
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 0.2rem;
+    margin-left: 15rem;
+    display: inline-block;
+    color: var(--darker);
+}
+.container .signin .sign-but{
+    display: inline-block;
+    margin-top: 1.3rem;
+    box-shadow: 1px 1px 5px gray;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1.2rem 2.6rem;
+    border-radius: 0.5rem;
+    background-color: var(--dark);
+}
+.container .signin .sign-but:hover, .container .img a:hover{
+    background-color: var(--darker);
+}
+.container .img a{
+    display: inline-block;
+    margin-top: 1.3rem;
+    color: white;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px white;
+    padding: 1.2rem 2.6rem;
+    border-radius: 0.5rem;
+    background-color: var(--dark);
+}
+
+/* Media Queries */
+@media(max-width:1747px){
+    
+}
+@media(max-width:1590px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width:1450px){
+    
+}
+@media(max-width:1370px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width: 1185px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width: 1111px) {
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width:1020px){
+    html{
+        font-size: 62%;
+    }
+}
+@media(max-width:980px){
+    html{
+        font-size: 60%;
+    }
+@media(max-width:500px){
+    html{
+        font-size: 58%;
+    }
+}
