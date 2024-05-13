@@ -118,9 +118,6 @@ body{
     width: 90%;
     margin: auto;
 }
-.container .signin .lupa div{
-    position: relative;
-}
 .container .signin .lupa input{
     display: inline-block;
     height: 1.2rem;
@@ -197,13 +194,53 @@ body{
     html{
         font-size: 62%;
     }
+    .container{
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .container .img{
+        width: 100%;
+        min-height: 43vh;
+        mask-image: linear-gradient(to bottom,rgba(0,0,0,1) 84%,rgba(0,0,0,0));
+    }
+    .container .signin{
+        width: 100%;
+    }
+    .container .signin input{
+        display: block;
+        margin: 1rem auto;
+    }
+    .lupa .isi{
+        margin-top: -1rem;
+        width: 100%;
+        margin: auto;
+    }
+    .container .signin .lupa label{
+        left: 0.5rem;
+    }
 }
 @media(max-width:980px){
     html{
         font-size: 60%;
     }
+
+@media(max-width:900px){
+    html{
+        font-size: 65%;
+    }
+  }
+@media(max-width:810px){
+    html{
+          font-size: 65%;
+    }
+  }
+@media(max-width:795px){
+    html{
+          font-size: 60%;
+    }
+  }
 @media(max-width:500px){
     html{
         font-size: 58%;
     }
-}
+  }
