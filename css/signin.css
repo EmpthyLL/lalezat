@@ -206,7 +206,7 @@ body{
     .container .signin{
         width: 100%;
         min-height: 55vh;
-        margin-top: 5rem;
+        padding-top: 5rem;
     }
     .lupa .isi{
         width: 90%;
